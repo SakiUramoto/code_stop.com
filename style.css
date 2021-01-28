@@ -1,0 +1,30 @@
+body{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.title{
+    padding:0 30px;
+    margin-bottom: 0;
+    
+}
+.menu_list{
+    background-color: #333333;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    margin: 0 auto;
+}
+li{
+    padding: 10px 60px 10px 0px;
+    font-size: 14px;
+}
+li a:link, a:visited, a:hover, a:active {
+    color: white;
+  }

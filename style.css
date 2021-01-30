@@ -4,22 +4,31 @@ body{
     margin: 0 auto;
 }
 header{
-    position: fixed;
     width: 100%;
-    height: auto;
     margin: 0 auto;
+    position: fixed;
+    height: auto;
 }
 .title{
-    padding:0 30px;
-    margin-bottom: 0;
+    padding: 10px 30px;
+    margin: 0;
+    background-color: white;
     
+}
+.title_menu{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title_menu img{
+    padding: 16px 20px;
 }
 .menu_list{
     background-color: #333333;
     display: flex;
     list-style: none;
-    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 16px;
 }
 li{
     padding: 10px 60px 10px 0px;
@@ -27,4 +36,30 @@ li{
 }
 li a:link, a:visited, a:hover, a:active {
     color: white;
-  }
+}
+.pickup_contents{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-between;
+
+}
+.pickup_contents h2{
+    font-size: 16px;
+}
+.pickup_contents a{
+    font-size: 14px;
+}
+.pickup_contents article{
+    width: 33%;
+    margin: 10px;
+}
+article{
+    text-align: center;
+}
+article img{
+    width: 100%;
+    height: auto;
+}
+

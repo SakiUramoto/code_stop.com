@@ -2,29 +2,171 @@ body{
     width: 100%;
     height: auto;
     margin: 0 auto;
+    font-family: sans-serif;
 }
 header{
-    position: fixed;
     width: 100%;
-    height: auto;
     margin: 0 auto;
+    position: fixed;
+    height: auto;
+}
+section{
+    margin-bottom: 50px
 }
 .title{
-    padding:0 30px;
-    margin-bottom: 0;
+    padding: 10px 30px;
+    margin: 0;
+    background-color: white;
     
+}
+.title_menu{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title_menu img{
+    padding: 16px 20px;
 }
 .menu_list{
     background-color: #333333;
     display: flex;
     list-style: none;
-    width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 16px;
 }
-li{
+.menu_list li{
     padding: 10px 60px 10px 0px;
     font-size: 14px;
 }
-li a:link, a:visited, a:hover, a:active {
+.menu_list li a:link, a:visited, a:hover, a:active {
     color: white;
-  }
+}
+.pickup_contents{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-between;
+
+}
+.pickup_contents a:link, a:visited, a:hover, a:active {
+    color: black;
+}
+.pickup_contents h2{
+    font-size: 16px;
+}
+.pickup_contents a{
+    font-size: 14px;
+}
+.pickup_contents article{
+    width: 33%;
+    margin: 10px;
+}
+.main{
+    display: flex;
+}
+.main a:link, a:visited, a:hover, a:active {
+    color: black;
+}
+.main_left h2{
+    font-size: 24px;
+    text-align: left;
+}
+.main_text{
+    font-size: 16px;
+    padding: 10px 40px 30px 40px;
+    text-align: left;
+    margin-bottom: 0;
+    
+}
+.main_left article{
+    padding-bottom: 50px;
+}
+.read_more{
+    font-size: 14px;   
+}
+.read_more a:hover{
+    text-decoration: none;
+   }
+.main_left li{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 14px;  
+}
+.main_side{
+    display: flex;
+    padding-left: 0px;
+}
+
+article{
+    text-align: center;
+}
+article img{
+    width: 100%;
+    height: auto;
+}
+.main{
+    max-width: 1200px;;
+    margin: 0 auto;
+}
+.main_left{
+    width: 760px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main_left img{
+    width: 100%;
+}
+.main_right{
+    width: 385px;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+}
+.main_right a {
+    text-decoration: none;
+}
+.profile{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.profile h2{
+    font-size: 18px;
+}
+.profile p{
+    font-size: 14px;
+    text-align: left;
+}
+.profile img{
+    width:130px;
+	height:130px;
+	object-fit:cover;
+	border-radius:50%;
+}
+.archive h3{
+    font-size: 18px;
+    text-align: center;
+}
+.archive ul{
+    padding-left: 0px;
+}
+.archive li{
+    list-style: none;
+    border-top: solid 1px #777;
+    padding: 20px;
+    font-size: 14px;
+}
+.ranking h3{
+    font-size: 18px;
+    text-align: center;
+}
+.ranking h4{
+    font-size: 14px;
+    text-align: left;
+}
+.ranking_title{
+    font-size: 14px;
+}
+

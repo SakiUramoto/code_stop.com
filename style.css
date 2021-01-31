@@ -20,26 +20,29 @@ section{
     
 }
 .title_menu{
-    max-width: 1200px;
-    margin: 0 auto;
+    width: 100%;
+    background-color: #333333;
+    margin: 0 auto;    
 }
 .title_menu img{
     padding: 16px 20px;
 }
 .menu_list{
-    background-color: #333333;
     display: flex;
     list-style: none;
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
+    
 }
 .menu_list li{
     padding: 10px 60px 10px 0px;
     font-size: 14px;
+    
 }
-.menu_list li a:link, a:visited, a:hover, a:active {
+.menu_list a{
     color: white;
+    text-decoration: none;
 }
 .pickup_contents{
     max-width: 1200px;
@@ -47,26 +50,24 @@ section{
     display: flex;
     padding-top: 150px;
     justify-content: space-between;
-
-}
-.pickup_contents a:link, a:visited, a:hover, a:active {
-    color: black;
 }
 .pickup_contents h2{
     font-size: 16px;
 }
 .pickup_contents a{
     font-size: 14px;
+    color: black;
+    
 }
 .pickup_contents article{
     width: 33%;
     margin: 10px;
 }
+.pickup_contents a:hover{
+    text-decoration: none;
+}
 .main{
     display: flex;
-}
-.main a:link, a:visited, a:hover, a:active {
-    color: black;
 }
 .main_left h2{
     font-size: 24px;
@@ -82,8 +83,9 @@ section{
 .main_left article{
     padding-bottom: 50px;
 }
-.read_more{
-    font-size: 14px;   
+.read_more a{
+    font-size: 14px;
+    color: black;   
 }
 .read_more a:hover{
     text-decoration: none;
@@ -97,7 +99,10 @@ section{
     display: flex;
     padding-left: 0px;
 }
-
+.main_side a{
+    color: black;
+    text-decoration: none;
+}
 article{
     text-align: center;
 }
@@ -158,6 +163,12 @@ article img{
     padding: 20px;
     font-size: 14px;
 }
+.archive a{
+    color: black;
+}
+.ranking a{
+    color: black;
+}
 .ranking h3{
     font-size: 18px;
     text-align: center;
@@ -169,4 +180,62 @@ article img{
 .ranking_title{
     font-size: 14px;
 }
-
+footer{
+    width: 100%;
+    background-color: #F7F7F7;
+}
+.footer_contents{
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 50px;
+    
+    
+}
+.footer_contents a{
+    color: black;
+    text-decoration: none;
+}
+.footer_contents h3{
+    font-size: 18px;
+}
+.about{
+    flex: 1;
+    height: 373px;
+    padding: 30px;
+}
+.about_list{
+    padding-left: 0;
+    font-size: 14px;
+}
+.about li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+.about p{
+    font-size: 14px;
+}
+.footer_menu{
+    flex: 1;
+    height: 373px;
+    padding: 30px;
+}
+.footer_list{
+    padding-left: 0;
+}
+.footer_list li{
+    list-style: none;
+    font-size: 14px;
+    padding: 15px;
+    border-top: solid 1px #777;
+}
+.twitter{
+    flex: 1;
+    height: 373px;
+    padding: 30px;
+}
+.copy_right{
+    text-align: center;
+    font-size: 12px;
+}

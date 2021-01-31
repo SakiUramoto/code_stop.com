@@ -1,0 +1,31 @@
+@media screen and (max-width:768px){
+    body{
+        width: 100%;
+        margin: 0 ; 
+    }
+
+
+    .title{
+        margin-top: 5vw;
+    }
+    .title img{
+        width: 45vw;
+        height: auto;
+    }
+    .menu_list{
+        width: 100%;
+        height: auto;
+    }
+   
+
+    .pickup_contents{
+        display: block;
+        width: 100%;
+        margin: 0 ;
+    }
+   .pickup_contents article{
+       width: 100%;
+       height: auto;
+       margin: 0;
+   }
+}

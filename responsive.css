@@ -6,7 +6,7 @@
 
 
     .title{
-        margin-top: 5vw;
+        padding-top: 5vw;
     }
     .title img{
         width: 45vw;
@@ -28,4 +28,33 @@
        height: auto;
        margin: 0;
    }
+   .main{
+       display: block;
+   }
+   .main_left{
+       width: 100%;
+       height: auto;
+       margin: 0;
+       padding: 0;
+   }
+   .main_left article{
+       width: 100%;
+       height: auto;
+       margin: 0;
+       
+   }
+   .footer_contents{
+       display: block;
+       
+   }
+   .twitter{
+       padding: 0;
+       margin-left: 9vw;
+   }
+   .twitter-timeline{
+       width: 100%;
+       height: auto;
+       margin: 0 auto;
+   }
+
 }
